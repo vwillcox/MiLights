@@ -33,22 +33,24 @@ def main(argv):
    led.set_group_type(1,'rgbw')
    if cmd == 'on' and value == 'white':
        led.on(zone)
-       led.set_color('white')
+       led.set_color('white', zone)
    if cmd == 'on' and value == 'red':
        led.on(zone)
-       led.set_color('red')
+       led.set_color('red', zone)
    if cmd == 'on' and value == 'green':
        led.on(zone)
-       led.set_color('green')
+       led.set_color('green', zone)
    if cmd == 'on' and value == 'blue':
        led.on(zone)
-       led.set_color('royal_blue')
+       led.set_color('royal_blue', zone)
    if cmd == 'off':
-       led.set_color('white')
+       led.set_color('white', zone)
        led.off(zone)
    if cmd == 'dim':
-       led.set_brightness(int(value))       
-
+       if zone == None:
+          led.set_brightness(int(value))       
+       else:
+          led.set_brightness(int(value), zone)
 
 if __name__ == "__main__":
    main(sys.argv[1:])
