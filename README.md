@@ -29,13 +29,13 @@ value is:
  
  zone is:
 
- 1, 2, 3 or 4 for the zone you want to control
+  1, 2, 3 or 4 for the zone you want to control
 
- To Control all zones use a string like All
+  To Control all zones use a string like All
 
- Can be used with 
-    <b>on</b>
-    <b>off</b>
-    <b>dim</b>
+  Can be used with 
+     <b>on</b>
+     <b>off</b>
+     <b>dim</b>
  
 
