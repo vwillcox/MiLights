@@ -20,22 +20,23 @@ command is:
   
 value is:
  
-  When used with <b>on</b> is one of white, red, green, blue
+   When used with <b>on</b> is one of white, red, green, blue
  
-  When used with <b>dim</b> is a number between 0 and 100
- 
-  When used with <b>off</b> is not used
+   When used with <b>dim</b> is a number between 0 and 100
+  
+   When used with <b>off</b> is not used
  
  
  zone is:
-
-  1, 2, 3 or 4 for the zone you want to control
-
-  To Control all zones use a string like All
-
-  Can be used with 
-     <b>on</b>
-     <b>off</b>
-     <b>dim</b>
  
+     1, 2, 3 or 4 for the zone you want to control
+   
+     To Control all zones use a string like All
 
+Can be used with 
+  
+   <b>on</b>
+   
+   <b>off</b>
+   
+   <b>dim</b>
